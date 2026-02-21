@@ -44,6 +44,14 @@ console.log(num1 + num1 * num2) // segue a precedência da matemática.
 + -
 */
 
+
 let contador = 4;
-contador++;
-console.log(contador);
+/*
+contador++; // 5
+contador++; // 6
+contador++; // 7
+contador++; // 8*/
+console.log(++contador); // pré-incremento
+
+console.log(contador--); // pós-decremento
+console.log(--contador); // pré-decremento
